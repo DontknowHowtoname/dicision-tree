@@ -1,0 +1,10 @@
+|--- PAY_0 <= 1.25
+|   |--- DELAY_PAYMENT_COUNT <= 1.50
+|   |   |--- class: 0
+|   |--- DELAY_PAYMENT_COUNT >  1.50
+|   |   |--- class: 0
+|--- PAY_0 >  1.25
+|   |--- DELAY_PAYMENT_COUNT <= 1.50
+|   |   |--- class: 0
+|   |--- DELAY_PAYMENT_COUNT >  1.50
+|   |   |--- class: 1

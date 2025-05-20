@@ -1,0 +1,65 @@
+{
+  "dataset_size": 6000,
+  "bill_columns": [
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6"
+  ],
+  "anomaly_counts": {
+    "BILL_AMT1": {
+      "count": 449,
+      "percentage": 7.483333333333333,
+      "min_ratio": 1.0002375,
+      "max_ratio": 2.5502,
+      "mean_ratio": 1.118396402859252,
+      "median_ratio": 1.026385
+    },
+    "BILL_AMT2": {
+      "count": 396,
+      "percentage": 6.6000000000000005,
+      "min_ratio": 1.00015,
+      "max_ratio": 2.47938,
+      "mean_ratio": 1.10049432659423,
+      "median_ratio": 1.0233178571428572
+    },
+    "BILL_AMT3": {
+      "count": 367,
+      "percentage": 6.116666666666667,
+      "min_ratio": 1.0000571428571428,
+      "max_ratio": 10.688575,
+      "mean_ratio": 1.118698523084533,
+      "median_ratio": 1.022
+    },
+    "BILL_AMT4": {
+      "count": 249,
+      "percentage": 4.15,
+      "min_ratio": 1.0000041666666666,
+      "max_ratio": 2.79824,
+      "mean_ratio": 1.0955635208945218,
+      "median_ratio": 1.0171666666666668
+    },
+    "BILL_AMT5": {
+      "count": 146,
+      "percentage": 2.433333333333333,
+      "min_ratio": 1.00005,
+      "max_ratio": 2.73208,
+      "mean_ratio": 1.1260452352339696,
+      "median_ratio": 1.0167437499999998
+    },
+    "BILL_AMT6": {
+      "count": 136,
+      "percentage": 2.2666666666666666,
+      "min_ratio": 1.0000285714285715,
+      "max_ratio": 2.6941,
+      "mean_ratio": 1.119275879470374,
+      "median_ratio": 1.0181520833333333
+    }
+  },
+  "total_over_limit": {
+    "count": 822,
+    "percentage": 13.700000000000001
+  }
+}

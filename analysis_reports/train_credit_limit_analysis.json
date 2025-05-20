@@ -1,0 +1,70 @@
+{
+  "dataset_size": 24000,
+  "bill_columns": [
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6"
+  ],
+  "anomaly_counts": {
+    "BILL_AMT1": {
+      "count": 1995,
+      "percentage": 8.3125,
+      "min_ratio": -0.6037578125,
+      "max_ratio": Infinity,
+      "mean_ratio": Infinity,
+      "median_ratio": 1.02638
+    },
+    "BILL_AMT2": {
+      "count": 1844,
+      "percentage": 7.683333333333334,
+      "min_ratio": -0.606109375,
+      "max_ratio": Infinity,
+      "mean_ratio": Infinity,
+      "median_ratio": 1.0237571428571428
+    },
+    "BILL_AMT3": {
+      "count": 1566,
+      "percentage": 6.525,
+      "min_ratio": -0.5288978260869566,
+      "max_ratio": Infinity,
+      "mean_ratio": Infinity,
+      "median_ratio": 1.0238271428571428
+    },
+    "BILL_AMT4": {
+      "count": 1152,
+      "percentage": 4.8,
+      "min_ratio": -0.5052631578947369,
+      "max_ratio": Infinity,
+      "mean_ratio": Infinity,
+      "median_ratio": 1.0294544871794873
+    },
+    "BILL_AMT5": {
+      "count": 1047,
+      "percentage": 4.3625,
+      "min_ratio": -0.47369782608695654,
+      "max_ratio": Infinity,
+      "mean_ratio": Infinity,
+      "median_ratio": 1.022790909090909
+    },
+    "BILL_AMT6": {
+      "count": 1045,
+      "percentage": 4.354166666666667,
+      "min_ratio": -0.4719901710638298,
+      "max_ratio": Infinity,
+      "mean_ratio": Infinity,
+      "median_ratio": 1.0192
+    }
+  },
+  "total_over_limit": {
+    "count": 3909,
+    "percentage": 16.287499999999998
+  },
+  "default_analysis": {
+    "over_limit_default_rate": 0.3187515988743924,
+    "normal_default_rate": 0.2736548703399532,
+    "relative_risk": 1.1647941747881807
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "train": {
+    "missing_values": {
+      "LIMIT_BAL": 645,
+      "SEX": 614,
+      "EDUCATION": 574,
+      "MARRIAGE": 625,
+      "AGE": 611,
+      "PAY_0": 605,
+      "PAY_2": 599,
+      "PAY_3": 594,
+      "PAY_4": 592,
+      "PAY_5": 567,
+      "PAY_6": 601,
+      "BILL_AMT1": 590,
+      "BILL_AMT2": 619,
+      "BILL_AMT3": 586,
+      "BILL_AMT4": 606,
+      "BILL_AMT5": 607,
+      "BILL_AMT6": 571,
+      "PAY_AMT1": 602,
+      "PAY_AMT2": 599,
+      "PAY_AMT3": 580,
+      "PAY_AMT4": 615,
+      "PAY_AMT5": 616,
+      "PAY_AMT6": 610,
+      "Unnamed: 24": 24000
+    },
+    "missing_values_total": 37828,
+    "over_limit": {
+      "BILL_AMT1": {
+        "count": 1995,
+        "percentage": 8.3125,
+        "max_ratio": -0.7880725
+      },
+      "BILL_AMT2": {
+        "count": 1844,
+        "percentage": 7.683333333333334,
+        "max_ratio": -0.9299625
+      },
+      "BILL_AMT3": {
+        "count": 1566,
+        "percentage": 6.525,
+        "max_ratio": -2.08011125
+      },
+      "BILL_AMT4": {
+        "count": 1152,
+        "percentage": 4.8,
+        "max_ratio": -0.78587375
+      },
+      "BILL_AMT5": {
+        "count": 1047,
+        "percentage": 4.3625,
+        "max_ratio": -1.029425
+      },
+      "BILL_AMT6": {
+        "count": 1045,
+        "percentage": 4.354166666666667,
+        "max_ratio": -0.87493
+      }
+    },
+    "over_limit_total": 8649,
+    "outliers": {
+      "LIMIT_BAL": {
+        "lower_outliers": 181,
+        "upper_outliers": 326,
+        "total_outliers": 507,
+        "percentage": 2.1125000000000003
+      },
+      "SEX": {
+        "lower_outliers": 201,
+        "upper_outliers": 362,
+        "total_outliers": 563,
+        "percentage": 2.3458333333333337
+      },
+      "EDUCATION": {
+        "lower_outliers": 218,
+        "upper_outliers": 723,
+        "total_outliers": 941,
+        "percentage": 3.920833333333333
+      },
+      "MARRIAGE": {
+        "lower_outliers": 189,
+        "upper_outliers": 386,
+        "total_outliers": 575,
+        "percentage": 2.3958333333333335
+      },
+      "AGE": {
+        "lower_outliers": 201,
+        "upper_outliers": 498,
+        "total_outliers": 699,
+        "percentage": 2.9125
+      },
+      "PAY_0": {
+        "lower_outliers": 176,
+        "upper_outliers": 2853,
+        "total_outliers": 3029,
+        "percentage": 12.620833333333334
+      },
+      "PAY_2": {
+        "lower_outliers": 200,
+        "upper_outliers": 3807,
+        "total_outliers": 4007,
+        "percentage": 16.695833333333333
+      },
+      "PAY_3": {
+        "lower_outliers": 194,
+        "upper_outliers": 3678,
+        "total_outliers": 3872,
+        "percentage": 16.133333333333333
+      },
+      "PAY_4": {
+        "lower_outliers": 213,
+        "upper_outliers": 3060,
+        "total_outliers": 3273,
+        "percentage": 13.6375
+      },
+      "PAY_5": {
+        "lower_outliers": 209,
+        "upper_outliers": 2762,
+        "total_outliers": 2971,
+        "percentage": 12.379166666666666
+      },
+      "PAY_6": {
+        "lower_outliers": 195,
+        "upper_outliers": 2858,
+        "total_outliers": 3053,
+        "percentage": 12.720833333333333
+      },
+      "BILL_AMT1": {
+        "lower_outliers": 204,
+        "upper_outliers": 1974,
+        "total_outliers": 2178,
+        "percentage": 9.075
+      },
+      "BILL_AMT2": {
+        "lower_outliers": 186,
+        "upper_outliers": 1990,
+        "total_outliers": 2176,
+        "percentage": 9.066666666666666
+      },
+      "BILL_AMT3": {
+        "lower_outliers": 213,
+        "upper_outliers": 2044,
+        "total_outliers": 2257,
+        "percentage": 9.404166666666667
+      },
+      "BILL_AMT4": {
+        "lower_outliers": 207,
+        "upper_outliers": 2211,
+        "total_outliers": 2418,
+        "percentage": 10.075000000000001
+      },
+      "BILL_AMT5": {
+        "lower_outliers": 209,
+        "upper_outliers": 2240,
+        "total_outliers": 2449,
+        "percentage": 10.204166666666667
+      },
+      "BILL_AMT6": {
+        "lower_outliers": 219,
+        "upper_outliers": 2218,
+        "total_outliers": 2437,
+        "percentage": 10.154166666666667
+      },
+      "PAY_AMT1": {
+        "lower_outliers": 210,
+        "upper_outliers": 2224,
+        "total_outliers": 2434,
+        "percentage": 10.141666666666667
+      },
+      "PAY_AMT2": {
+        "lower_outliers": 212,
+        "upper_outliers": 2185,
+        "total_outliers": 2397,
+        "percentage": 9.9875
+      },
+      "PAY_AMT3": {
+        "lower_outliers": 212,
+        "upper_outliers": 2110,
+        "total_outliers": 2322,
+        "percentage": 9.675
+      },
+      "PAY_AMT4": {
+        "lower_outliers": 186,
+        "upper_outliers": 2416,
+        "total_outliers": 2602,
+        "percentage": 10.841666666666667
+      },
+      "PAY_AMT5": {
+        "lower_outliers": 196,
+        "upper_outliers": 2139,
+        "total_outliers": 2335,
+        "percentage": 9.729166666666666
+      },
+      "PAY_AMT6": {
+        "lower_outliers": 199,
+        "upper_outliers": 2146,
+        "total_outliers": 2345,
+        "percentage": 9.770833333333332
+      }
+    },
+    "outliers_total": 51840
+  },
+  "test": {
+    "missing_values": {},
+    "missing_values_total": 0,
+    "over_limit": {
+      "BILL_AMT1": {
+        "count": 449,
+        "percentage": 7.483333333333333,
+        "max_ratio": 74.6814
+      },
+      "BILL_AMT2": {
+        "count": 396,
+        "percentage": 6.6000000000000005,
+        "max_ratio": 67.1563
+      },
+      "BILL_AMT3": {
+        "count": 367,
+        "percentage": 6.116666666666667,
+        "max_ratio": 85.5086
+      },
+      "BILL_AMT4": {
+        "count": 249,
+        "percentage": 4.15,
+        "max_ratio": 70.6864
+      },
+      "BILL_AMT5": {
+        "count": 146,
+        "percentage": 2.433333333333333,
+        "max_ratio": 58.7067
+      },
+      "BILL_AMT6": {
+        "count": 136,
+        "percentage": 2.2666666666666666,
+        "max_ratio": 51.4975
+      }
+    },
+    "over_limit_total": 1743,
+    "outliers": {
+      "LIMIT_BAL": {
+        "lower_outliers": 0,
+        "upper_outliers": 36,
+        "total_outliers": 36,
+        "percentage": 0.6
+      },
+      "EDUCATION": {
+        "lower_outliers": 0,
+        "upper_outliers": 118,
+        "total_outliers": 118,
+        "percentage": 1.9666666666666666
+      },
+      "AGE": {
+        "lower_outliers": 0,
+        "upper_outliers": 33,
+        "total_outliers": 33,
+        "percentage": 0.5499999999999999
+      },
+      "PAY_0": {
+        "lower_outliers": 0,
+        "upper_outliers": 574,
+        "total_outliers": 574,
+        "percentage": 9.566666666666666
+      },
+      "PAY_2": {
+        "lower_outliers": 0,
+        "upper_outliers": 813,
+        "total_outliers": 813,
+        "percentage": 13.55
+      },
+      "PAY_3": {
+        "lower_outliers": 0,
+        "upper_outliers": 774,
+        "total_outliers": 774,
+        "percentage": 12.9
+      },
+      "PAY_4": {
+        "lower_outliers": 0,
+        "upper_outliers": 698,
+        "total_outliers": 698,
+        "percentage": 11.633333333333333
+      },
+      "PAY_5": {
+        "lower_outliers": 0,
+        "upper_outliers": 510,
+        "total_outliers": 510,
+        "percentage": 8.5
+      },
+      "PAY_6": {
+        "lower_outliers": 0,
+        "upper_outliers": 496,
+        "total_outliers": 496,
+        "percentage": 8.266666666666666
+      },
+      "BILL_AMT1": {
+        "lower_outliers": 0,
+        "upper_outliers": 464,
+        "total_outliers": 464,
+        "percentage": 7.733333333333333
+      },
+      "BILL_AMT2": {
+        "lower_outliers": 0,
+        "upper_outliers": 465,
+        "total_outliers": 465,
+        "percentage": 7.75
+      },
+      "BILL_AMT3": {
+        "lower_outliers": 0,
+        "upper_outliers": 473,
+        "total_outliers": 473,
+        "percentage": 7.883333333333334
+      },
+      "BILL_AMT4": {
+        "lower_outliers": 0,
+        "upper_outliers": 481,
+        "total_outliers": 481,
+        "percentage": 8.016666666666666
+      },
+      "BILL_AMT5": {
+        "lower_outliers": 0,
+        "upper_outliers": 549,
+        "total_outliers": 549,
+        "percentage": 9.15
+      },
+      "BILL_AMT6": {
+        "lower_outliers": 3,
+        "upper_outliers": 539,
+        "total_outliers": 542,
+        "percentage": 9.033333333333333
+      },
+      "PAY_AMT1": {
+        "lower_outliers": 0,
+        "upper_outliers": 533,
+        "total_outliers": 533,
+        "percentage": 8.883333333333333
+      },
+      "PAY_AMT2": {
+        "lower_outliers": 0,
+        "upper_outliers": 550,
+        "total_outliers": 550,
+        "percentage": 9.166666666666666
+      },
+      "PAY_AMT3": {
+        "lower_outliers": 0,
+        "upper_outliers": 583,
+        "total_outliers": 583,
+        "percentage": 9.716666666666667
+      },
+      "PAY_AMT4": {
+        "lower_outliers": 0,
+        "upper_outliers": 521,
+        "total_outliers": 521,
+        "percentage": 8.683333333333334
+      },
+      "PAY_AMT5": {
+        "lower_outliers": 0,
+        "upper_outliers": 588,
+        "total_outliers": 588,
+        "percentage": 9.8
+      },
+      "PAY_AMT6": {
+        "lower_outliers": 0,
+        "upper_outliers": 494,
+        "total_outliers": 494,
+        "percentage": 8.233333333333333
+      }
+    },
+    "outliers_total": 10295
+  }
+}
